@@ -1,0 +1,37 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+.env
+
+# Virtual Environment
+venv/
+env/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment Variables
+.env
+
+# Logs and Debug
+*.log
+debug/
+*.sqlite3
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+
+# Flask Cache
+instance/
+.cache/
+
+# OS Specific
+.DS_Store
+Thumbs.db
