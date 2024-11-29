@@ -5,10 +5,11 @@ from controllers.loginController import login_bp
 from controllers.attendanceController import attendance_bp
 from config import Config
 from flask_mysqldb import MySQL
+from flask_cors import CORS
 
 
 app = Flask(__name__)
-
+CORS(app)
 app.config.from_object(Config)
 mysql = MySQL(app)
 
